@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="shortcut icon" href="imagenes/Logo.webp" type="image/x-icon">
+
+    <title>Grand Friends</title>
+</head>
+
+<body>
+    <!-- Inicio de navbar -->
+    <nav class="navbar navbar-expand-sm  navbar-dark">
+        <a class="navbar-brand" href="#">Grand Friends</a>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="clases.html">Clases</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cultivo.html">Cultivo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="famas.html">Famas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="soporte.html">Soporte</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!-- Final de navbar -->
+
+    <!-- Inicio de Contenido -->
+    <h1 class="animate__heartBeat infinite text-center"><u>¿Necesitas Ayuda Mensajero Sprite?</u></h1>
+
+    <P class="texto text-center container col-lg-10 bg-warning" style="font-weight: bold;">Bienvenido a la sección de soporte, aquí podrás realizar preguntas referidas al juego, con respecto a dudas y/o consejos que pudieras necesitar  para convertirte en un gran mensajero sprite.</P>
+
+    <div class="imagclasenovato1 text-center col-lg-12">
+        <img src="imagenes/sprite-fantasia-gameplay.jpg" alt="" width="750" height="500" style="border-radius: 10px">
+    </div>
+    <br>
+
+
+    <!-- Inicio de Cuestionario -->
+    <h2 class="text-center"><u>Envianos tu problema</u></h2>
+
+
+<form  class=" formulario text-center bg-warning" action="enviar.php" method="post" enctype="text/plain" netlify>
+    <label for="names">Nombre de Personaje:</label>
+    <input id="names" name="names" type="text" required
+    placeholder="Ingresa tu nick">
+    <br>
+    <label for="nivel">Nivel:</label>
+    <input id="nivel" name="nivel" type="text" required placeholder="Ingresa tu nivel">
+    <br>
+    <label for="names">Clase:</label>
+    <input id="clase" name="clase" type="number" placeholder="Ingresa tu clase">
+    
+    <br>
+    <label for="names">Correo:</label>
+    <input id="correo" name="correo" type="email" placeholder="Ingresa tu correo">
+    <br>
+    <label for="">Realiza tu pregunta y/o duda en esta seccion:</label><br>
+    <textarea name="" id="" cols="30" rows="5"
+    placeholder="Escribe tus comentarios"></textarea>
+    <br>
+    <input type="submit">
+    <input type="reset" value="borrar">
+    
+    <br>
+
+    <!-- Final de Cuestionario -->
+
+    <!-- Final de Contenido -->
+
+    <!-- Inicio de Footer -->
+    <footer class="container-fluid bg-success text-center">
+        <pc class="gracias">¡Gracias por visitarnos y sigue tu aventura por toda Siwa!</pc>
+        <div class="redes">
+            <a href="https://www.facebook.com/GrandFantasiaLAT/?ref=nf"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://lat.grandfantasia.aeriagames.com/"><i class="fa-brands fa-chrome"></i></a>
+            <a href="https://www.youtube.com/user/AeriaGF"><i class="fa-brands fa-youtube"></i></a>
+
+        </div>
+    </footer>
+    <!-- Final de Footer -->
+
+    <!-- Inicio de archivos Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+    </script>
+    <!-- Final de archivos Boostrap -->
+</body>
+
+</html>
