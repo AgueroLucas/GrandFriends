@@ -11,10 +11,20 @@ h1 {
 
 h2 {
   height: 60px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #5557b9;
+}
+
+.h2clase{
+    background-color: #9714ee;
+
 }
 
 h3 {
   height: 40px;
+  text-align: center;
+  background-color: #8D72E1;
 }
 
 .btn-group {
@@ -33,6 +43,14 @@ body {
   margin: 10px;
 }
 
+ul{
+  line-height: 40px;
+  /* background-color: rgb(17, 149, 182); */
+}
+
+ol{
+  line-height: 35px;
+}
 .btn-group {
   text-shadow: 0px 0px 5px 1px yellow;
 }
@@ -46,10 +64,13 @@ ul {
   height: 300px;
   object-fit: cover;
   object-position: bottom;
+  
 }
 
 .imagclasenovato1 {
   max-width: 100%;
+  
+  
 }
 
 /* Inicio de Footer */
